@@ -1,0 +1,102 @@
+/*
+Theme name: read more
+Theme coder: Asmaa Ebeid
+first-color:  #e0eef9;
+Second-color: #fffce7;
+*/
+
+/*main classes*/
+*{
+font-family: sans-serif, fantasy;
+font-weight: 600;
+}
+body{
+    font-size: 1.5rem;
+    color: #7b7b7b;
+}
+.no-margin{
+    margin: 0;
+}
+.no-padding{
+    padding: 0;
+}
+.container {
+    margin-right: 3rem;
+    margin-left: 3rem
+}
+.main-parag {
+    color: #C00000;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 800;
+}
+.main-parag span {
+    font-weight: 800;
+}
+.small-parag {
+    font-weight: 400;
+    color: #C00000;
+    font-size: 16px;
+}
+.under-line{
+    text-decoration: underline;
+}
+.mt-2 {
+    margin-top: 2rem ;
+}
+.mt-4 {
+    margin-top: 4rem ;
+}
+.mrl-4px{
+    margin-right: 4px;
+    margin-left: 4px;
+}
+.flex {
+    display: flex;
+}
+.py-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.px-8 {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+.text-white {
+    color: white;
+}
+.background-red{
+    background-color: #C00000;
+}
+.btn-red{
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-red:hover{
+    background-color: #700000;
+}
+.logo img {
+    max-width: 36%;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 767px) {
+    .container {
+        margin-right: 0.7rem;
+        margin-left: 0.7rem
+    }
+    .main-parag {
+        font-size: 13px;
+    }
+    .small-parag {
+        font-size: 13px;
+    }
+    .btn-red{
+        font-size: 12px;
+    }
+    .logo img {
+        max-width: 55%;
+    }
+
+}
